@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #c3e8c9, #f0f4f8);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #2f855a;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.weather-info {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.input-field,
+.select-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #2f855a;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus,
+.select-field:focus {
+    border-color: #38a169;
+}
+
+.recommendation {
+    margin-top: 20px;
+    background: #e6fffa;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #2c5282;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}

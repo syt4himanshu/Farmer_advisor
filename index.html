@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmAdvisor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FarmAdvisor</h1>
+        <div class="card weather-card">
+            <h2>Weather Information</h2>
+            <input type="text" id="cityInput" placeholder="Enter city name" class="input-field">
+            <div id="weatherInfo" class="weather-info"></div>
+        </div>
+        <div class="card crop-card">
+            <h2>Crop Selection</h2>
+            <select id="cropSelect" class="select-field">
+                <option value="">Select your crop</option>
+                <option value="Rice">Rice</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Cotton">Cotton</option>
+            </select>
+        </div>
+        <div id="recommendation" class="recommendation"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
